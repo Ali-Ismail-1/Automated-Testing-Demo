@@ -13,4 +13,4 @@ def test_hello_world_pass():
 
 def test_pass():
     condition = True
-    assert True == condition
+    assert condition is True
