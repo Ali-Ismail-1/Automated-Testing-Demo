@@ -10,7 +10,6 @@ def test_hello_world_pass():
     hello_string = hello_world()
     assert hello_string == "Hello World"
 
-
 def test_pass():
     condition = True
-    assert condition is True
+    assert condition is False
