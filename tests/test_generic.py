@@ -1,5 +1,6 @@
 from blueprints.generic.views import hello_world
 
+
 def test_hello_world_lower():
     hello_string = hello_world()
     assert hello_string.lower() == "hello world"
